@@ -1,0 +1,392 @@
+body {
+    font-size: 14px;
+    font-family: 'OpenSans', sans-serif;
+    position: relative;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+/*section one*/
+
+.one {
+    padding: 100px 0;
+    background-color: #f6f2f2;
+}
+
+/*section two*/
+
+.two {
+    padding: 100px 0;
+}
+
+/*section three*/
+
+.three {
+    padding: 100px 0;
+}
+
+.line {
+    border-top: 2px solid #ff3b3b;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.tab {
+    overflow: hidden;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.contentShow {
+    display: block;
+}
+
+.tablinks {
+    border: none;
+    background-color: none;
+    color: darkgrey;
+}
+
+.tablinks:hover {
+    color: #ff3b3b;
+    background: none !important;
+}
+
+/*section four*/
+
+.redLine {
+    border-top: 2px solid #ff3b3b;
+    max-width: 100px;
+}
+
+.icon {
+    font-size: 2rem;
+    color: black;
+    padding: 0 10px;
+}
+
+.team-block {
+    padding: 20px 20px 70px 20px;
+}
+
+.team-title {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.team-position {
+    color: #585858;
+    font-size: 16px;
+}
+
+.team-desc {
+    font-style: italic;
+}
+
+.mailForm {
+    padding: 100px 0;
+    background-color: #f5f0dd;
+}
+
+.form-control {
+    border: none;
+    background-color: #fff;
+    padding: 25px 10px;
+}
+
+.subscribe {
+    padding: 12px 30px;
+}
+
+/*section five*/
+
+.five {
+    padding: 100px 0;
+}
+
+.forms {
+    background-color: #e5e5e5;
+
+}
+
+.formsBlock {
+    background-color: #000;
+    color: #fff;
+    padding: 140px 0;
+    border-radius: 5px;
+
+}
+
+.marginTop {
+    margin-top: 20px;
+}
+
+.paddingForm {
+    padding: 0 15px;
+}
+
+/*footer*/
+.footer {
+    padding: 40px 0;
+    background-color: #313030;
+}
+
+.coperater {
+    color: #b8b8b8;
+}
+
+.social-logo {
+    color: #fff;
+}
+
+.social-logo:hover {
+    color: #f3f3f3;
+}
+
+
+@media screen and (max-width: 575.98px) {
+      .centerContent {
+        text-align: center!important;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .marginCenter {
+        margin: 0 auto !important;
+    }
+
+    .text-secondary {
+        font-size: 1rem;
+    }
+
+    .paddingZero {
+        padding: 0 !important;
+    }
+
+    .object {
+        display: none;
+    }
+
+    .contentShow {
+        display: none;
+    }
+
+
+    /*section one*/
+    #home {
+        padding-bottom: 50px;
+    }
+
+    /* section two*/
+    #ourServices {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    /* section three*/
+    #portfolio {
+        padding: 50px 0;
+    }
+ 
+    /* section four*/
+    #aboutUs {
+        padding-top: 0;
+    }
+
+    .team-block {
+        padding: 20px 20px 40px 20px;
+    }
+
+    #aboutUs .mailForm {
+        padding: 40px 5px;
+    }
+
+    .subscribe {
+        margin-top: 25px;
+    }
+
+    /*    section five*/
+    #contact {
+        padding: 50px 0;
+    }
+
+    .formsBlock {
+        padding: 25px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+       .centerContent {
+        text-align: center!important;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .marginCenter {
+        margin: 0 auto !important;
+    }
+
+    .text-secondary {
+        font-size: 1rem;
+    }
+
+    .paddingZero {
+        padding: 0 !important;
+    }
+
+    .object {
+        display: none;
+    }
+
+    .contentShow {
+        display: none;
+    }
+
+
+    /*section one*/
+    #home {
+        padding-bottom: 50px;
+    }
+
+    /* section two*/
+    #ourServices {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    /* section three*/
+    #portfolio {
+        padding: 50px 0;
+    }
+
+    /* section four*/
+    #aboutUs {
+        padding-top: 0;
+    }
+
+    #aboutUs .mailForm {
+        padding: 40px 5px;
+    }
+
+    .team-block {
+        padding: 20px 20px 40px 20px;
+    }
+
+    .subscribe {
+        margin-top: 25px;
+    }
+
+    /*    section five*/
+    #contact {
+        padding: 50px 0;
+    }
+
+    .formsBlock {
+        padding: 25px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+      .centerContent {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .marginCenter {
+        margin: 0 auto !important;
+    }
+
+    .text-secondary {
+        font-size: 1rem;
+    }
+
+    .paddingZero {
+        padding: 0 !important;
+    }
+
+    /*section one*/
+    #home {
+        padding-bottom: 50px;
+    }
+
+    /* section two*/
+    #ourServices {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    /* section three*/
+    #portfolio {
+        padding: 50px 0;
+    }
+
+    /* section four*/
+    #aboutUs {
+        padding-top: 0;
+    }
+
+    #aboutUs .mailForm {
+        padding: 40px 5px;
+    }
+
+    .team-block {
+        padding: 20px 20px 40px 20px;
+    }
+
+    .subscribe {
+        margin-top: 25px;
+    }
+
+    /*    section five*/
+    #contact {
+        padding: 50px 0;
+    }
+
+    .formsBlock {
+        padding: 25px;
+        
+    }
+}
